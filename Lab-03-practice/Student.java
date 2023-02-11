@@ -6,7 +6,7 @@ public class Student {
     int age;
     double cgpa;
 
-    //declare method with no parameter
+    //declare void method with no parameter
     void displayInfo() {
 
         System.out.println("Name : " + name);
@@ -20,6 +20,8 @@ public class Student {
         obj.name = "Arif";
         obj.age = 22;
         obj.cgpa = 3.42;
+
+        //calling method with no parameter
         obj.displayInfo();
     }
 }
