@@ -14,8 +14,8 @@ public class Employee{
     //Display Employee information 
      void info(){ 
 
-        System.out.println("Name : "+Name); 
-        System.out.println("Id : "+Id); 
+        System.out.println("Name : " + Name); 
+        System.out.println("Id : " + Id); 
      } 
 
     public static void main(String[] args){ 
