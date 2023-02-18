@@ -1,5 +1,4 @@
 # CSE-215-oop-by-java
-<<<<<<< HEAD
 <h4><v></br>
 <h4>Name : Khandaker Arif Uddin</br>
 <h4>Section : V</br>
