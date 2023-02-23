@@ -1,5 +1,3 @@
-import javax.lang.model.element.Name;
-
 //create Persoon class
 public class Person{
 
