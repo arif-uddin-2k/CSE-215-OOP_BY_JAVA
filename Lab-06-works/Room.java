@@ -8,14 +8,14 @@ public class Room {
     boolean ac_machine;
     
     //create class constructor
-    Room(int no, String type, float area, boolean ac){
+    public Room(int no, String type, float area, boolean ac){
 
         this.room_no = no;
         this.room_type = type;
         this.room_area = area;
         this.ac_machine = ac;
     }
-    Room(){
+    public Room(){
 
         System.out.println("Hello, an object of Room class is created\n");
     }
