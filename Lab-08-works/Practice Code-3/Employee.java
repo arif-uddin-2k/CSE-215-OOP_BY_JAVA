@@ -13,18 +13,18 @@ public class Employee {
 
     public void display()
     {
-        System.out.println("Name of Employee : " + this.name);
-        System.out.println("Address of Employee: " + addressInfo.street + ", " + addressInfo.city + ", " + addressInfo.state + ", " + addressInfo.postalCode);
+        System.out.println("Name of Employee : " + name);
+        System.out.println("Address of Employee: " + addressInfo.street + ", " + addressInfo.city + ", " + addressInfo.state + "-" + addressInfo.postalCode);
         System.out.println("Insurance information: " + insuranceInfo.policyName + ", " + insuranceInfo.policyId);
     }
 
     public static void main(String[] args) {
 
-        AddressInfo addressInfo= new AddressInfo("Sector 4", "Uttara", "Dhaka", "1711");
+        AddressInfo addressInfo= new AddressInfo("Mazar Road", "Mirpur-1", "Dhaka", "1216");
 
-        InsuranceInfo insuranceInfo = new InsuranceInfo("Life Insurance", 123);
+        InsuranceInfo insuranceInfo = new InsuranceInfo("Life Insurance", 5017);
 
-        Employeee employeee =new Employeee("Mr. Rahim", addressInfo, insuranceInfo);
+        Employee employeee =new Employee("Arif. Uddin", addressInfo, insuranceInfo);
 
         employeee.display();
     }
